@@ -34,7 +34,7 @@
 //this function picks a quote in random from my quote storage and returns how to print on the page.
     function getRandomQuote() {
         var item = quotes[Math.floor(Math.random()* quotes.length)];
-        return '<strong class="lead" style="color:#00000;">' + item.quote + '</strong><br><br>' + item.source + '<p><br>' + item.citation + '<br><br>' + item.year + ', ' ;
+        return '<p class="quote">' + item.quote + '<p class="source">' + item.source + '<span class="citation"><br>' + item.citation + '<br><span class="year"><br>' + item.year + ', ' ;
     }
  //this function prints the quote when the button is click
     function printQuote() {
