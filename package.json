@@ -1,0 +1,19 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "\"A fun quote generator\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarlcdiaz/Random-Quote-Generator.git"
+  },
+  "author": "Cesar Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarlcdiaz/Random-Quote-Generator/issues"
+  },
+  "homepage": "https://github.com/cesarlcdiaz/Random-Quote-Generator#readme"
+}
